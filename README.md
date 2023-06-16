@@ -20,7 +20,15 @@ In this question, I have provided model suggestions for different datasets along
 
 ## Question 3: Mathematics Description
 
-This question emphasizes the importance of mathematics in machine learning and provides an opportunity to explore Gaussian Processes Regression. Gaussian Processes Regression combines elements of multivariable calculus, linear algebra, probability theory, and statistics. I have discussed the concept of Gaussian Processes, constructing the kernel function, positive-semidefiniteness, Cholesky decomposition, and assumptions for the problem.
+In this project, I have explored Gaussian Process regression and its application in constructing a surrogate function using the squared exponential kernel (also known as the RBF kernel). Gaussian Processes combine elements of multivariable calculus, linear algebra, and probability theory, making them a powerful tool in machine learning.
+
+To derive the posterior predictive distribution, I define the RBF kernel, ensuring its positive-semidefinite property for a valid Gaussian process. I then perform Cholesky decomposition on the kernel matrix to obtain the lower triangular matrix, which aids in calculating regression weights and predictions. This closed-form solution allows us to smoothly interpolate between data points and extrapolate well into the test data.
+
+In the implementation phase, I utilize Python and numpy to build a Gaussian Process regression model. By employing basic operations, I evaluate its performance on a toy dataset, validating the effectiveness of the derived mathematical framework.
+
+Furthermore, I discuss the concept of extrapolation in Gaussian Processes and its definition of how well the model predicts unseen data points. I distinguish the optimization process in Gaussian Process regression from that of regular neural networks, emphasizing the closed-form solution's role in capturing underlying trends and patterns.
+
+Lastly, I explored the possibility of adapting Gaussian Processes for classification tasks using Gaussian Process Classification (GPC). GPC models estimate the posterior distribution over class labels and can provide probabilistic predictions in addition to continuous outputs.
 
 ## Question 4: Implementation
 
