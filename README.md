@@ -33,6 +33,7 @@ Lastly, I explored the possibility of adapting Gaussian Processes for classifica
 ## Question 4: Implementation
 
 Transformer Implementation using PyTorch
+
 The Transformer is a state-of-the-art model widely used in natural language processing tasks for sequence transduction.
 
 Key Features Implemented
