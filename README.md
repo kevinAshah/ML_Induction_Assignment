@@ -32,7 +32,18 @@ Lastly, I explored the possibility of adapting Gaussian Processes for classifica
 
 ## Question 4: Implementation
 
-For the final question, I have chosen one implementation challenge from a list of interesting models. I have implemented the **Vanilla Autoencoder** using the PyTorch library. The Vanilla Autoencoder is a neural network trained to reproduce its input at the output layer and can be used for tasks such as data compression and denoising. I have mentioned the difficulty level of the implementation and the recommended libraries for each challenge.
+Transformer Implementation using PyTorch
+The Transformer is a state-of-the-art model widely used in natural language processing tasks for sequence transduction.
+
+Key Features Implemented
+Positional Encoding: The implementation includes positional encoding to provide information about the relative positions of words in the input sequence. This enables the model to capture positional relationships effectively.
+
+Multi-Head Attention: The implementation includes multi-head attention, allowing the model to focus on different word dependencies simultaneously. It applies self-attention multiple times in parallel, capturing different types of relationships.
+
+Self-Attention: The self-attention mechanism is implemented to weigh different words in the input sequence when making predictions. It captures relationships between words by assigning attention weights based on their relevance to other words in the sequence.
+
+Encoder-Decoder Mechanism: The transformer architecture's fundamental encoder-decoder structure is implemented. The encoder processes the input sequence and generates a hidden representation, capturing the input's meaning. The decoder takes the encoder's hidden representation and generates the output sequence.
+
 
 Each question's answer contains detailed explanations, reasoning, and references wherever applicable.
 
